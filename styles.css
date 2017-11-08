@@ -13,20 +13,20 @@ body {
 }
 
 h3 {
+  color: #909BAD;
   font-family: 'Roboto', sans-serif;
   font-size: 80%;
-  color: #909BAD;
 }
 
 .side-bar {
   background-color: #354052;
   display: inline-block;
-  height: 1300px;
+  height: 1353px;
   left: 0;
   margin-bottom: 0; 
   position: relative;
-  width: 15%;
   vertical-align: top;
+  width: 15%;
 }
 
 .picture {
@@ -63,21 +63,26 @@ h3 {
 }
 
 p.category {
+  display: inline-block;
   margin: 10px 0 10px 0;
+}
+
+.link img {
+  height: 10px;
+}
+
+.link h3 {
   display: inline-block;
 }
 
-.link img{
-  height: 10px;
-}
-.link h3{
-  display: inline-block;
+.link h3:hover {
+  color: #ffffff;
 }
 
 .aside-categories, 
 .aside-admin, 
 .aside-main{
-  padding: 0 20% 0 20%;
+  padding: 0 10% 0 10%;
 }
 
 .link input{
@@ -87,31 +92,31 @@ p.category {
 .central-content {
   display: inline-block;
   position: relative;
-  width: 84.7%;
   vertical-align: top;
+  width: 84.7%;
 }
 
 nav {
-  position: relative;
-  height: 50px;
-  width: 100%;
   display: inline-flex;
+  height: 50px;
   justify-content: space-around;
+  position: relative;
   vertical-align: top;
+  width: 100%;
 }
 
 .hamburger {
   background-image: url('images/menu-grey.svg');
   background-position: cover;
   background-repeat: no-repeat;
+  flex-basis: 5%;
   height: 50px;
   width: 50px;
-  flex-basis: 5%;
 }
 
 .hamburger:hover {
-  background-image: url('images/menu-hover.svg');
   background-color: #16A4FA;
+  background-image: url('images/menu-hover.svg');
 }
 
 .search {
@@ -123,8 +128,8 @@ nav {
 
 nav input {
   background-color: transparent;
-  box-shadow: none;
   border: none;
+  box-shadow: none;
   height: 50px;
   width: 90%;
 }
@@ -139,8 +144,8 @@ nav section{
 
 .fa-search {
   color: #9D9EA1;
-  width: 5%;
   padding-left: 10px;
+  width: 5%;
 }
 
 .add-friend {
@@ -148,14 +153,14 @@ nav section{
   background-position: cover;
   background-repeat: no-repeat;
   border-right: none;
+  flex-basis: 5%;
   height: 50px;
   width: 50px;
-  flex-basis: 5%;
 }
 
 .add-friend:hover {
-  background-image: url('images/add-friend-hover.svg');
   background-color: #16A4FA;
+  background-image: url('images/add-friend-hover.svg');
 }
 
 .movie {
@@ -163,28 +168,28 @@ nav section{
   background-position: cover;
   background-repeat: no-repeat;
   border-right: none;
+  flex-basis: 5%;
   height: 50px;
   width: 50px;
-  flex-basis: 5%;
 }
 
 .movie:hover {
-  background-image: url('images/movie-hover.svg');
   background-color: #16A4FA;
+  background-image: url('images/movie-hover.svg');
 }
 
 .grid {
   background-image: url('images/grid-grey.svg');
   background-position: cover;
   background-repeat: no-repeat;
+  flex-basis: 5%; 
   height: 50px;
   width: 50px;
-  flex-basis: 5%; 
 }
 
 .grid:hover{
-  background-image: url('images/grid-hover.svg');
   background-color: #16A4FA;
+  background-image: url('images/grid-hover.svg');
 }
 
 header {
@@ -197,13 +202,13 @@ header {
 }
 
 .top-title h1 {
-  font-family: 'Lato', sans-serif;
   color: #828284;
+  font-family: 'Lato', sans-serif;
 }
 
 .top-title p {
-  font-family: 'Open-Sans', sans-serif;
   color: #9BA0A5;
+  font-family: 'Open-Sans', sans-serif;
   font-size: 80%;
   padding: 5px;
 }
@@ -223,15 +228,15 @@ header {
 }
 
 .open {
+  background-color: transparent;
+  border: 1px #9BA0A5 solid;
+  border-radius: 20px;
+  box-shadow: none;
   color: #828284;
+  font-size: 80%;
   height: 40px;
   width: 85px;
-  border-radius: 20px;
-  background-color: transparent;
-  box-shadow: none;
-  border: 1px #9BA0A5 solid;
   padding: 5px 5px;
-  font-size: 80%;
 }
 
 .open:hover, 
@@ -239,27 +244,27 @@ header {
 .pen:hover,
 .trash:hover {
   background-color: #354052;
-  color: #ffffff;
   border: none;
+  color: #ffffff;
 }
 
 .marker, 
 .pen,
 .trash {
+  background-color: transparent;
+  border: 1px #9BA0A5 solid;
+  border-radius: 20px;
+  box-shadow: none;
   color: #828284;
   height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  background-color: transparent;
-  box-shadow: none;
-  border: 1px #9BA0A5 solid;
   margin-left: 10px;
+  width: 40px;
 }
 
 .top-links button{
   background-color: transparent;
-  box-shadow: none;
   border: none;
+  box-shadow: none;
 }
 
 #summary{
@@ -276,57 +281,47 @@ main {
 }
 
 .visual-graphs {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .circles {
-  display: flex;
-  flex-basis: 40%;
-  position: relative;
-  margin: 2% auto;
-  justify-content: center;
-  stroke-linecap: round;
   align-self: center;
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  stroke-linecap: round;
 }
-
-
-/*.circle__stat .one {
-  margin-right: -10%;
-}
-
-.circle__stat .three {
-  margin-left: -10%;
-}*/
 
 .circle__stat {
-  flex-basis: 75%;
   display: inline-block;
+  flex-basis: 75%;
   height: 150px;
   position: relative;
   width: 150px;
 }
 
 .circle__per {
-  position: absolute;
-  height: 0;
-  line-height: 0;
-  width: 150px;
-  top: 42%;
-  font-size: 200%;
-  text-align: center;
-  font-family: "Open-Sans", sans-serif;
-  font-weight: 100;
   color: #828284;
   border-radius: 20px;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 200%;
+  font-weight: 100;
+  height: 0;
+  line-height: 0;
+  position: absolute;
+  top: 42%;
+  text-align: center;
+  width: 150px;
 }
 
 #stat-class {
-  top: 55%;
   font-size: 30%;
   line-height: 250%;
+  top: 55%;
 }
 
 .graph {
@@ -334,9 +329,9 @@ main {
 }
 
 .graph img {
-  height: 200px;
-  position: relative;
+  height: 171px;
   margin-top: 5%;
+  position: relative;
 }
 
 .graph-buttons {
@@ -346,10 +341,9 @@ main {
   margin-bottom: 40px;
 }
 
-
 .graph-buttons h3{
-  margin-top: auto;
   margin-bottom: auto;
+  margin-top: auto;
 }
 
 .totals,
@@ -368,8 +362,8 @@ main {
 .totals:hover,
 .applicants-day:hover {
   background-color: #354052;
-  color: #ffffff;
   border: none;
+  color: #ffffff;
 }
 
 .totals {
@@ -385,14 +379,14 @@ main {
 }
 
 .divider hr {
-  width: 40%;
   flex-basis: 40%;
+  width: 40%;
 }
 
 .divider button {
   background-color: #ffffff;
-  border: #9BA0A5 1px solid;
   border-radius: 40px;
+  border: #9BA0A5 1px solid;
   height: 40px;
   width: 40px;
 }
@@ -403,8 +397,8 @@ main {
 
 .divider button:hover {
   background-color: #354052;
-  color: #ffffff;
   border: none;
+  color: #ffffff;
 }
 
 .bottom-content {
@@ -417,28 +411,28 @@ main {
 table {
   border-collapse: collapse;
   display: inline-block; 
+  flex-basis: 60%;
   margin: 20px 10px;
   width: 60%;
-  flex-basis: 60%
 }
 
 tr {
+  border-bottom: 1px;
   background-color: #ffffff;
   border-spacing: none;
-  height: 60px;
+  height: 75px;
   width: 60%;
-  border-bottom: 1px;
 }
 
 th {
   background-color: #6F7E95;
-  text-align: left;
   height: 60px;
+  text-align: left;
 }
 
 th h3 {
-  display: inline-block;
   color: #ffffff;
+  display: inline-block;
   padding-left: 20px;
 }
 
@@ -455,8 +449,8 @@ th button {
 }
 
 td {
-  text-align: left;
   padding-left: 20px; 
+  text-align: left;
 }
 
 td p {
@@ -477,21 +471,32 @@ td p {
 .LinkedIn {
   border: none;
   color: #ffffff;
-  width: 100%;
   height: 40px;
   margin: 5px 0;
+  width: 100%;
 }
 
 .facebook {
   background-color: #4A6FC0;
 }
 
+.facebook:hover {
+  background-color: #6493fb;
+}
+
 .twitter {
   background-color: #02ABF0;
 }
 
+.twitter:hover {
+  background-color: #3cc3fb;
+}
 .LinkedIn {
   background-color: #0482BD;
+}
+
+.LinkedIn:hover {
+  background-color: #2b93c3;
 }
 
 .link p,
@@ -510,7 +515,6 @@ td p {
   font-size: 80%;
 }
 
-
 .button-title  {
   color: #ffffff;
   display: inline-block;
@@ -523,10 +527,13 @@ td p {
   background-color: #ffffff;
   color: #828284;
   height: 40px; 
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
+.turing {
+  padding-left: 10px;
+}
 
 .copy {
   background-color: #47B8BF;
@@ -598,13 +605,17 @@ td p {
 @media (max-width: 660px) {
 
 .circles {
-    flex-wrap: wrap;
     flex-basis: 100%;
+    flex-wrap: wrap;
     overflow: hidden;
   }
 
 .circle__stat {
   flex-basis: auto;
+}
+
+nav input::placeholder {
+  font-size: 0px;
 }
 }
 

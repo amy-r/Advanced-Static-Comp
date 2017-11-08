@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Static Comp 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,700" rel="stylesheet">
+  <script src="https://use.fontawesome.com/a87f08d2e7.js"></script>
+</head>
+<body>
+  <aside class="side-bar">
+    <article class="picture">
+      <img src="images/harper.png" alt="photo of cute yellow dog with big ears">
+      <h2> Harper Russell </h2>
+    </article>
+    <article class="aside-main">
+      <p class="title"> Main </p>
+      <div class="link">
+        <img src = "images/home-blue.svg" alt ="home icon">
+        <h3> HOME </h3>
+      <div>
+      <div class="link">  
+        <img src="images/jobs-blue.svg" alt ="jobs icon">  
+        <h3> JOBS </h3>
+      </div> 
+      <div class="link">  
+        <img src="images/resume-blue.svg" alt ="resume icon">   
+        <h3> RESUMES </h3>
+      </div>
+      <div class="link">  
+        <img src="images/tasks-blue.svg" alt ="tasks icon">  
+      <h3> TASKS </h3>
+      </div>
+      <div class="link">  
+        <img src="images/calendar-blue.svg" alt ="jobs icon">  
+        <h3> CALENDAR </h3>
+      </div>  
+    </article>
+    <article class="aside-admin">
+      <p class="title"> Admin </p>
+      <div class="link">  
+        <img src="images/users-blue.svg" alt ="users icon">  
+        <h3> USERS </h3>
+      </div>
+      <div class="link">  
+        <img src="images/location-blue.svg" alt ="location icon">  
+        <h3> LOCATIONS </h3>
+      </div>
+      <div class="link">  
+        <img src="images/jobs-blue.svg" alt ="workflows icon">    
+        <h3> WORKFLOWS </h3>
+      </div>
+      <div class="link">  
+        <img src="images/jobs-blue.svg" alt ="job boards icon">
+        <h3> JOB BOARDS </h3>
+      </div>  
+      <div class="link">  
+        <img src="images/social-blue.svg" alt ="social icon">  
+        <h3> SOCIAL </h3>
+      </div>                        
+    </article>
+    <article class="aside-categories">
+      <p class="title"> Categories </p>
+      <div class="link">  
+        <input type = "checkbox">
+        <p class="category"> Administrative </p>
+      </div>  
+      <div class="link">  
+        <input type = "checkbox">
+        <p class="category"> Design </p>
+      </div>
+      <div class="link">  
+        <input type = "checkbox">  
+        <p class="category"> Executive </p>
+      </div>
+      <div class="link">  
+        <input type = "checkbox">  
+        <p class="category"> Human Resources </p>
+      </div>  
+    </article>
+  </aside>
+  <div class="central-content">
+    <nav>
+      <section class="hamburger"></section>
+      <section class="search">
+        <i class='fa fa-search' aria-hidden='true'></i>
+        <input type="text" name="search" placeholder="Search for a job, task, or resume">
+      </section>
+      <section class="add-friend"></section>
+      <section class="movie"></section>
+      <section class="grid"></section>
+    </nav>
+    <header>
+      <section class = "top-title">
+        <h1> Customer Service Representative </h1>
+        <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+          Denver, CO  &middot;
+          <span class ="preview">Preview this post 
+          </span>
+        </p>  
+      </section>
+      <section class = "top-buttons">
+        <button class="open" name="open">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            OPEN
+        </button>
+        <button class="marker">
+          <i class="fa fa-tag" aria-hidden="true"></i>
+        </button>
+        <button class="pen">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+        </button>
+        <button class="trash">
+          <i class="fa fa-trash" aria-hidden="true"></i>
+        </button>
+      </section>
+    </header>
+      <nav class="top-links">
+        <button id ="summary"> <h3> SUMMARY </h3></button>
+        <button> <h3> APPLICANTS </h3></button>
+        <button> <h3> JOB BOARD </h3></button>
+        <button> <h3> INTERVIEW </h3></button>
+        <button> <h3> ACTIVITY </h3></button>
+        <button> <h3> BROADCAST </h3></button>
+        <button> <h3> NOTIFICATIONS </h3></button>
+      </nav>
+    <main>
+      <section class = "visual-graphs">
+        <section class = "circles">
+          <div class="circle__stat one">
+            <div class="circle__per">65%<h3 id="stat-class"> APPLICANTS </h3></div>
+ <!--  <svg viewbox="0 0 36 36">
+  <path
+    d="M18 2.0845
+      a 15.9155 15.9155 0 0 1 0 31.831
+      a 15.9155 15.9155 0 0 1 0 -31.831"
+    fill="none"
+    stroke="#444";
+    stroke-width="1";
+    stroke-dasharray="75, 100"
+  />
+</svg> -->
+            <svg class="circle__svg" style><circle cx="75" cy="75" r="60" stroke="#dbdbdb" fill="none" style="stroke-width: 5;"></circle><defs></defs><path d="M75,15 A60,60 0 1,1 26.458980337503156,110.26711513754839" stroke="#199dab" fill="none" style="stroke-width: 5;"></path></svg>
+          </div>
+
+          <div class="circle__stat two">
+            <div class="circle__per">25% <h3 id="stat-class"> INTERVIEWS </h3></div>
+            <svg class="circle__svg"><circle cx="75" cy="75" r="60" stroke="#dbdbdb" fill="none" style="stroke-width: 5;"></circle><defs></defs><path d="M75,15 A60,60 0 0,1 133.93723504372133,86.24287887514349" stroke="#15A0F1" fill="none" style="stroke-width: 5;"></path></svg>
+          </div>
+          <div class="circle__stat three">
+            <div class="circle__per">83%<h3 id="stat-class"> FORWARDS </h3></div>
+            <svg class="circle__svg"><circle cx="75" cy="75" r="60" stroke="#dbdbdb" fill="none" style="stroke-width: 5;"></circle><defs></defs><path d="M75,15 A60,60 0 1,1 22.421599197368188,46.09477955389708" stroke="#A76BA4" fill="none" style="stroke-width: 5;"></path></svg>
+          </div>
+        </section>  
+        <section class= "graph">
+          <img src= "images/bar-graph-2.png">
+        </section>
+      </section> 
+      <section class= "graph-buttons">
+          <button class="totals"> <h3>TOTALS</h3> </button>
+          <button class= "applicants-day"><h3>APPLICANTS/DAY </h3></button>
+      </section> 
+      <section class= "divider">
+        <hr>
+        <button class= "up"><i class="fa fa-angle-up" aria-hidden="true"></i>
+        </button>
+        <hr>
+      </section>
+      <section class= "bottom-content">
+        <table>
+          <tr>
+            <th><h3> JOB DESCRIPTION </h3> </th>
+            <th>
+              <button>
+              <i class= "fa fa-pencil" aria-hidden="true"></i>
+              EDIT
+              </button>
+            </th>
+          </tr> 
+          <tr>
+            <td> <h3>POSITION TITLE </h3> </td>
+            <td> <p> Customer Service Representative </p> </td>
+          </tr>
+          <tr>
+            <td> <h3>LOCATION </h3> </td>
+            <td> <p> Denver, CO </p> </td>
+          </tr>  
+          <tr>
+            <td> <h3>EMPLOYMENT TYPE </h3> </td>
+            <td> <p> Full-time </p> </td>
+          </tr>
+          <tr>
+            <td> <h3>EXPERIENCE </h3> </td>
+            <td> <p> Mid-level </p> </td>
+          </tr>  
+          <tr>
+            <td> <h3>STATUS </h3> </td>
+            <td> <p> Open </p> </td>
+          </tr> 
+          <tr>
+            <td> <h3>DESCRIPTION </h3> </td>
+            <td> <p> The customer service representative is responsible for interacting with and providing quality assistance to all radical customers, responsible. </p> </td>
+          </tr> 
+          <tr>
+            <td> <h3>HIRING LEAD </h3> </td>
+            <td> <p> Tom Tizzy </p> </td>
+          </tr>
+          <tr>
+            <td> <h3>APPROVED SALARY </h3> </td>
+            <td> <p> <b>$75,000</b> </p> </td>
+          </tr>
+        </table>
+        <section class="buttons-links">
+          <button class="facebook">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <p class="button-title">Post to Facebook</p>
+          </button>
+          <button class="twitter">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <p class= "button-title">Tweet this Job</p>
+          </button>
+          <button class="LinkedIn">
+            <i class= "fa fa-linkedin" aria-hidden="true"></i>
+            <p class= "button-title">Post to LinkedIn</p>
+          </button> 
+          <article class= "link">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <h2> Link to this Job </h2>
+            <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Sep </p>
+            <div class= "turing-link">
+              <p> http://turing.io </p>
+               <button class = "copy">Copy</button>
+            </div>
+            <hr>
+          </article> 
+          <article class= "link">
+            <i class="fa fa-envelope-open" aria-hidden="true"></i>
+            <h2> Use the button widget </h2>
+            <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Sep </p>
+            <div class= "turing-link">
+               <p> http://turing.io </p>
+               <button class = "copy"> Copy </button>
+            </div>
+            <hr>
+          </article> 
+            <article class= "link">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            <h2> Upload Resumés by Email </h2>
+            <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Sep </p>
+            <div class= "turing-link">
+               <p> http://turing.io </p>
+            </div>
+          </article> 
+        </section>
+      </section>  
+    </main>  
+  </div> 
+</body>
+</html>

@@ -2,4 +2,4 @@
 ## Original Comp
 <img src = 'images/static-comp-challenge-3.jpg'>
 
-This project expanded my CSS skills. After building out the HTML, I ultimately decided to use flex throughout this comp. 
+This comp is an exercise in CSS wizardy and attention to detail. I leaned heavily on CSS flexbox and ensured that it maintained a smooth transition to smaller screen sizes.
